@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+""" CryptoHack - Introduction - Great Snakes"""
+# Como o problema se trata de rodar um script, escolhi não alterar o código
 
 import sys
 # import this
@@ -10,5 +12,3 @@ ords = [81, 64, 75, 66, 70, 93, 73, 72, 1, 92, 109, 2, 84, 109, 66, 75, 70, 90, 
 
 print("Here is your flag:")
 print("".join(chr(o ^ 0x32) for o in ords))
-
-# Como o problema se trata apenas de rodar um script, escolhi deixá-lo aqui sem mudanças
